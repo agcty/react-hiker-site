@@ -173,7 +173,6 @@ If you need additional rules or want to turn off specific rules just edit `.esli
 
 ### Adding new absolute import paths
 
-
 This will instruct Next.js to set up a new alias to your specific folder. If you try to import a file with @myalias now it will still throw an error however because we need to tell our IDE that this path actually exists:
 
 Add path in `.tsconfig`
