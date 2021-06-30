@@ -9,9 +9,19 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      fontFamily: {
-        sans: ["Inter", ...defaultTheme.fontFamily.sans],
+      // fontFamily: {
+      //   sans: ["Inter", ...defaultTheme.fontFamily.sans],
+      // },
+      colors: {
+        hiker: {
+          800: "#7A9B76",
+        },
       },
+    },
+
+    container: {
+      padding: "1rem",
+      center: true,
     },
   },
   variants: {
